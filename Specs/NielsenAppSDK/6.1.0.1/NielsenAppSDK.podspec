@@ -22,4 +22,5 @@ Pod::Spec.new do |s|
             :execution_position => :before_compile
         }
     ]
+    s.pod_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/NielsenAppSDK' }
 end
