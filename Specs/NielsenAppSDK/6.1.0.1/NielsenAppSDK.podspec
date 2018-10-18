@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
     s.license             = { :text => 'Copyright 2018 Nielsen', :type => 'Copyright' }
     s.platform            = :ios, '8.0'
     s.name                = 'NielsenAppSDK'
-    s.preserve_paths      = 'LICENSE.txt', 'pod_build.sh'
-    s.source_files        = '${PODS_TARGET_SRCROOT}/NielsenAppApi.framework/NielsenAppApi.h', '${PODS_TARGET_SRCROOT}/NielsenAppApi.framework/NielsenEventTracker.h'
+    s.preserve_paths      = 'LICENSE.txt', 'pod_build.sh', 'NielsenAppApi.framework/Headers/NielsenAppApi.h', 'NielsenAppApi.framework/Headers/NielsenEventTracker.h'
+    s.source_files        = 'NielsenAppApi.framework/Headers/NielsenAppApi.h', 'NielsenAppApi.framework/Headers/NielsenEventTracker.h'
     s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios-releases-develop/master/iOS/Nielsen/NielsenAppSDK-6.1.0.1.zip' }
     s.summary             = 'Nielsen App SDK.'
     s.vendored_frameworks = 'NielsenAppApi.framework'
