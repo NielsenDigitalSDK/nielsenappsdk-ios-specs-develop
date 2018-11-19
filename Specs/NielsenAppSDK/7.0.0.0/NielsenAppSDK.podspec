@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
     s.platform            = :ios, '8.0'
     s.name                = 'NielsenAppSDK'
     s.preserve_paths      = 'LICENSE.txt', 'pod_build.sh'
-    s.module_map          = 'NielsenAppSDK.framework/Modules/module.modulemap'
+    s.public_header_files = 'NielsenAppApi.framework/Headers/NielsenAppApi-Swift.h', 'NielsenAppApi.framework/Headers/NielsenAppApi.h'
     s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios-releases-develop/master/iOS/Nielsen/NielsenAppSDK-7.0.0.0.zip' }
     s.summary             = 'Nielsen App SDK.'
-    s.vendored_frameworks = 'NielsenAppSDK.framework'
+    s.vendored_frameworks = 'NielsenAppApi.framework'
     s.version             = '7.0.0.0'
     s.script_phases = [
         {
