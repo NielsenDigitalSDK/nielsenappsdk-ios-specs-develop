@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage            = 'http://www.nielsen.com'
     s.license             = { :text => 'Copyright 2018 Nielsen', :type => 'Copyright' }
     s.platform            = :ios, '8.0'
-    s.name                = 'NielsenAppApi'
+    s.name                = 'NielsenAppSDK'
     s.preserve_paths      = 'LICENSE.txt', 'pod_build.sh'
     #s.source_files        = 'NielsenAppSDK.framework/Headers/NielsenAppSDK.h'
     s.module_map          = 'NielsenAppApi.framework/Modules/module.modulemap'
