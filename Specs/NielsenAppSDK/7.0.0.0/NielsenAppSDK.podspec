@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
     s.name                = 'NielsenAppSDK'
     s.preserve_paths      = 'LICENSE.txt', 'pod_build.sh'
     # s.source_files        = 'NielsenAppSDK.framework/Headers/NielsenAppSDK.h'
-    s.module_map          = 'NielsenAppSDK.framework/Modules/module.modulemap'
+    s.module_map          = 'NielsenAppApi.framework/Modules/module.modulemap'
     s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios-releases-develop/master/iOS/Nielsen/NielsenAppSDK-7.0.0.0.zip' }
     s.summary             = 'Nielsen App SDK.'
-    s.vendored_frameworks = 'NielsenAppSDK.framework'
+    s.vendored_frameworks = 'NielsenAppApi.framework'
     s.version             = '7.0.0.0'
     s.script_phases = [
         {
