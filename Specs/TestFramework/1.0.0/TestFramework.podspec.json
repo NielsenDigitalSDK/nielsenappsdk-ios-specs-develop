@@ -1,0 +1,23 @@
+{
+  "name": "TestFramework",
+  "version": "1.0.0",
+  "summary": "TestFramework for iOS 9.0+.",
+  "description": "TestFramework needed for Cocoapods testing. We need this to make NielsenAppApi work",
+  "homepage": "https://www.nielsen.com",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright 2018 Nielsen. All rights reserved.\n"
+  },
+  "authors": "Nielsen",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios-releases-develop/master/iOS/Test/testFw_v1.0.0.zip"
+  },
+  "vendored_frameworks": "TestFramework.framework",
+  "preserve_paths": "TestFramework.framework",
+  "frameworks": [
+  ],
+  "requires_arc": true
+}
