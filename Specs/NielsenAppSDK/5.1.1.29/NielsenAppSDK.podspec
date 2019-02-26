@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
     s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios-releases-develop/master/iOS/Global/NielsenAppSDK-5.1.1.29.zip' }
     s.summary             = 'Nielsen App SDK.'
     s.vendored_frameworks = 'NielsenAppApi.framework'
+    s.static_framework    = true
     s.version             = '5.1.1.29'
     s.script_phases = [
         {
