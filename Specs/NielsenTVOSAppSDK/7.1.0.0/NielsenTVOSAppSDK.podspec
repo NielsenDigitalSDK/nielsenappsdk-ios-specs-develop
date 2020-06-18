@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
     s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios-releases-develop/master/tvOS/Global/NielsenTVOSAppSDK-7.1.0.0.zip' }
     s.summary             = 'Nielsen TVOS App SDK.'
     s.vendored_frameworks = 'NielsenTVAppApi.framework'
-    s.static_framework    = true
     s.version             = '7.1.0.0'
     s.script_phases = [
         {
