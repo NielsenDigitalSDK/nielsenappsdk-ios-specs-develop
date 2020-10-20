@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
     s.platform            = :ios, '8.0'
     s.name                = 'NielsenAppSDK'
     s.preserve_paths      = 'LICENSE.txt', 'pod_build.sh'
-    s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios-releases-develop/static_test/iOS/Global/NielsenAppSDK-8.0.0.2.zip' }
+    # s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios-releases-develop/static_test/iOS/Global/NielsenAppSDK-8.0.0.2.zip' }
+    s.source              = { :git => "https://github.com/NielsenDigitalSDK/nielsenappsdk-ios-releases-develop.git", :branch => 'static_test' }
     s.summary             = 'Nielsen App SDK.'
     s.vendored_frameworks = 'NielsenAppApi.framework'
     s.static_framework    = true
