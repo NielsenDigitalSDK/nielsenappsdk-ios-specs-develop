@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.platform            = :ios, '8.0'
     s.name                = 'NielsenAGFAppSDK'
     s.preserve_paths      = 'LICENSE.txt', 'pod_build.sh'
-    s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios/master/iOS/AGF/NielsenAGFAppSDK-8.0.0.0.zip' }
+    s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios-develop/master/iOS/AGF/NielsenAGFAppSDK-8.0.0.0.zip' }
     s.summary             = 'Nielsen AGF App SDK.'
     s.vendored_frameworks = 'NielsenAppApi.framework'
     s.static_framework    = true
