@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.platform            = :tvos, '9.0'
     s.name                = 'NielsenAGFNoAdTVOSAppSDK'
     s.preserve_paths      = 'LICENSE.txt', 'pod_build.sh'
-    s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios-releases-develop/master/tvOS/AGFNoAd/NielsenAGFNoAdTVOSAppSDK-6.0.0.4.zip' }
+    s.source              = { :http => 'https://raw.githubusercontent.com/nielsendigitalsdk/nielsenappsdk-ios/master/tvOS/AGFNoAd/NielsenAGFNoAdTVOSAppSDK-6.0.0.4.zip' }
     s.summary             = 'Nielsen AGF No Ad TVOS App SDK.'
     s.vendored_frameworks = 'NielsenTVAppApi.framework'
     s.static_framework    = true
